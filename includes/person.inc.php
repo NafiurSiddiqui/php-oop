@@ -13,14 +13,14 @@ class Person {
     private $age = 70;
 
     
-     public function owner(){
+    //  public function owner(){
 
-        // $this->printSomething();
-        // THIS WAY WE CAN STILL ACCESS THE PRIVATE METHODS or PROPERTIES
+    //     // $this->printSomething();
+    //     // THIS WAY WE CAN STILL ACCESS THE PRIVATE METHODS or PROPERTIES
         
-        $myOwner = $this->first;
-        return $myOwner;
-    }
+    //     $myOwner = $this->first;
+    //     return $myOwner;
+    // }
 
     //Making function private will only be accessible from the class itself unless you return it.
 

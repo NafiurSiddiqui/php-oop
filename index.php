@@ -15,7 +15,7 @@
      $per1 = new Person();
 
      echo $synth1->owner();
-     echo $per1->owner();
+    //  echo $per1->owner();
 
 
 ?>

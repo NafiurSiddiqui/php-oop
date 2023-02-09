@@ -11,4 +11,4 @@ class NewClass{
 
 $object = new NewClass;
 
-var_dump($object);
+// var_dump($object);

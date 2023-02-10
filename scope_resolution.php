@@ -3,6 +3,12 @@
  //PARENT CLASS
 
 
+ //*-- TAKE AWAY 
+ /**
+  * Scope operation = ::
+  * Parent::<property/methods> = Accessing parent class.
+  * self::<property/methods> = Accessing self class.
+  */
 
  class Vehicle{
 

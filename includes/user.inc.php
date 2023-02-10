@@ -23,6 +23,14 @@ class User {
         echo $this->password;
     }
 
+    /**
+     * @destruct() - It runs anytime class is instantiated.
+     */
+    public function __destruct()
+    {
+        echo 'User created!';
+    }
+
 }
 
 ?>

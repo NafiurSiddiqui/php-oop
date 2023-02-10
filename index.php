@@ -42,9 +42,21 @@
 
 //   var_dump($user1);
 
-// echo $user1->name;
+echo $user1->name;
 //   echo $user1->email;
 //   echo $user1->showPassword();
+
+
+//* DELETING A CLASS
+
+unset($user1); //DELETES user1 OBJ
+
+// echo $user1->name;  //USER1 does not exist anymore
+
+$user2 = new User(' Levin', 'lvin@gma.com', 8943); //WE CAN STILL CREATE MORE USER.
+
+echo $user2->name;
+
 ?>
 </body>
 </html>

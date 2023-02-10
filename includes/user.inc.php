@@ -28,7 +28,7 @@ class User {
      */
     public function __destruct()
     {
-        echo 'User created!';
+        echo ' User created!';
     }
 
 }

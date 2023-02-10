@@ -7,28 +7,35 @@
     <title>OOP </title>
 </head>
 <body>
-    
+  
+<!-- Visibility and Inheritence -->
 <?php
-     include './includes/person.inc.php';
+    //  include './includes/visibility.inc.php';
 
-     $synth1 = new Synthesizer();
-     $per1 = new Person();
-     //WE CAN ALSO Create object like this.
-     $newPerson = 'Person';
+    //  $synth1 = new Synthesizer();
+    //  $per1 = new Visibility();
+    //  //WE CAN ALSO Create object like this.
+    //  $newVisibility = 'Visibility';
 
-     echo $synth1->owner();
-    //  echo $per1->owner();
+    //  echo $synth1->owner();
+    // //  echo $per1->owner();
 
-    //*ACCESSING STATIC METHOD AND PROPS
+    // //*ACCESSING STATIC METHOD AND PROPS
 
-    // Person::staticMethod();
-    // echo Person::$staticDream;
+    // // Visibility::staticMethod();
+    // // echo Visibility::$staticDream;
 
     
-    $newPerson::staticMethod();
+    // $newVisibility::staticMethod();
 
   
 
+
+?>
+
+<!-- CONSTRUCTOR -->
+
+<?php
 
 ?>
 </body>

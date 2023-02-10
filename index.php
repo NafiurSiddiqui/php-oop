@@ -1,3 +1,7 @@
+<?php
+    include './includes/autoloader.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
   
 <!-- Visibility and Inheritence -->
 <?php
-    //  include './includes/visibility.inc.php';
+
 
     //  $synth1 = new Synthesizer();
     //  $per1 = new Visibility();
@@ -36,7 +40,6 @@
 <!-- CONSTRUCTOR -->
 
 <?php
-  include './includes/user.inc.php';
 
   $user1 = new User('Eddie',' ed@gmail.com', 12345);
 

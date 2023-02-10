@@ -13,9 +13,21 @@
 
      $synth1 = new Synthesizer();
      $per1 = new Person();
+     //WE CAN ALSO Create object like this.
+     $newPerson = 'Person';
 
      echo $synth1->owner();
     //  echo $per1->owner();
+
+    //*ACCESSING STATIC METHOD AND PROPS
+
+    // Person::staticMethod();
+    // echo Person::$staticDream;
+
+    
+    $newPerson::staticMethod();
+
+  
 
 
 ?>

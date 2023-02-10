@@ -7,7 +7,7 @@
  * PRIVATE - Can't access from anywhere but this class.
  * PUBLIC - Global access
  * PROTECTED - Access within class and instances
- * Static - 
+ * Static - Static can be accessed without initiating class.
  * Readony - We can not assign any value or anything.
  */
 

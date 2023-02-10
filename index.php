@@ -36,7 +36,15 @@
 <!-- CONSTRUCTOR -->
 
 <?php
+  include './includes/user.inc.php';
 
+  $user1 = new User('Eddie',' ed@gmail.com', 12345);
+
+//   var_dump($user1);
+
+// echo $user1->name;
+//   echo $user1->email;
+//   echo $user1->showPassword();
 ?>
 </body>
 </html>

@@ -1,8 +1,6 @@
-<!-- CONSTRUCTOR -->
-
-<!-- CREATE USER using their information -->
-
 <?php
+
+    namespace User;
 
 class User {
 
@@ -33,4 +31,3 @@ class User {
 
 }
 
-?>

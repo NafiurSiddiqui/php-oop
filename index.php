@@ -41,7 +41,7 @@
 
 <?php
 
-  $user1 = new User('Eddie',' ed@gmail.com', 12345);
+  $user1 = new User\User('Eddie',' ed@gmail.com', 12345);
 
 //   var_dump($user1);
 
@@ -56,7 +56,7 @@ unset($user1); //DELETES user1 OBJ
 
 // echo $user1->name;  //USER1 does not exist anymore
 
-$user2 = new User(' Levin', 'lvin@gma.com', 8943); //WE CAN STILL CREATE MORE USER.
+$user2 = new User\User(' Levin', 'lvin@gma.com', 8943); //WE CAN STILL CREATE MORE USER.
 
 echo $user2->name;
 

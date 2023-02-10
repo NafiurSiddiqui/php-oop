@@ -42,6 +42,9 @@ class Visibility {
     //STATIC
 
     public static function staticMethod(){
+        
+        echo self::$staticDream; //THIS IS HOW YOU POINT TO THE STATIC values inside the class. $this won't work here.
+
         echo " This is a static method. ";
     }
 

@@ -1,4 +1,5 @@
 <?php
+    declare(strict_types = 1); //TO turn on the strict
     include './includes/autoloader.inc.php';
 ?>
 
@@ -41,25 +42,42 @@
 
 <?php
 
-  $user1 = new User\User('Eddie',' ed@gmail.com', 12345);
+//     $user1 = new User\User('Eddie',' ed@gmail.com', 12345);
 
-//   var_dump($user1);
+// //   var_dump($user1);
 
-echo $user1->name;
-//   echo $user1->email;
-//   echo $user1->showPassword();
+//     echo $user1->name;
+// //   echo $user1->email;
+// //   echo $user1->showPassword();
 
 
-//* DELETING A CLASS
+// //* DELETING A CLASS
 
-unset($user1); //DELETES user1 OBJ
+//     unset($user1); //DELETES user1 OBJ
 
-// echo $user1->name;  //USER1 does not exist anymore
+// // echo $user1->name;  //USER1 does not exist anymore
 
-$user2 = new User\User(' Levin', 'lvin@gma.com', 8943); //WE CAN STILL CREATE MORE USER.
+//     $user2 = new User\User(' Levin', 'lvin@gma.com', 8943); //WE CAN STILL CREATE MORE USER.
 
-echo $user2->name;
+//     echo $user2->name;
 
 ?>
+
+<!-- TYPE DECLARATION -->
+<?php
+ 
+    // try {
+    //     $newUser = new User\User('fab', 123, 12334);
+    //     var_dump($new);
+        
+    // } catch (TypeError $e) {
+    //     echo "Error! : " . $e->getMessage();
+    // }
+
+
+?>
+
+
+
 </body>
 </html>

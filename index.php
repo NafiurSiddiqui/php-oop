@@ -1,5 +1,8 @@
 <?php
-    declare(strict_types = 1); //TO turn on the strict
+    // declare(strict_types = 1); //TO turn on the strict
+
+use Purchase\Purchase;
+
     include './includes/autoloader.inc.php';
 ?>
 
@@ -67,8 +70,8 @@
 <?php
  
     // try {
-    //     $newUser = new User\User('fab', 123, 12334);
-    //     var_dump($new);
+    //     $newUser = new User\User('fab', 'lamp', 12334);
+    //     var_dump($newUser);
         
     // } catch (TypeError $e) {
     //     echo "Error! : " . $e->getMessage();
@@ -77,7 +80,12 @@
 
 ?>
 
+<!-- Abstract Class-->
 
+<?php
+    include_once "classes/abstract/paymenttypes.abstract.php";
+    include_once "classes/BuyProduct.class.php";
+?>
 
 </body>
 </html>

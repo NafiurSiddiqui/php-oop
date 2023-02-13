@@ -103,5 +103,25 @@
 
 <!-- PDO (Php Database Object) -->
 
+<?php
+
+    // $testObj = new DbTest();
+
+    // $testObj->getUser("Eddie", "Ed@something.com");
+    // $testObj->setUser("Jonathan", "jonyboy@gmail.com", "Loved the product!");
+    // $testObj->getFeedback();
+    ?>
+
+
+<!-- PDO -->
+
+<?php
+    // $usersObj = new UsersView();
+    // $usersObj->showUser('Eddie');
+
+    // $usersObj2 = new UsersController();
+    // $usersObj2->createUser("Abyssinth", "Abs@gmail.com", "creation is awesome!");
+?>
+
 </body>
 </html>

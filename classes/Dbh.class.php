@@ -5,7 +5,7 @@ class Dbh {
     private $HOST = "localhost";
     private $USER = "root";
     private $PWD = "";
-    private $DB_NAME = "php_oop";
+    private $DB_NAME = "php_dev";
 
     //Connect to DB
     protected function connect(){

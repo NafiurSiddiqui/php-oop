@@ -2,7 +2,7 @@
     // declare(strict_types = 1); //TO turn on the strict
 
     
-    include './includes/autoloader.inc.php';
+    include 'includes/autoloader.inc.php';
     use Purchase\Purchase;
 ?>
 
@@ -19,8 +19,10 @@
 <!-- class declaration -->
 
 <?php
-    include "./classes/Newclass.class.php";
-    echo $newObj->printSomething();
+    // include "./classes/Newclass.class.php";
+    // $newObj = new NewClass;
+    // echo $newObj->printSomething();
+    // echo $newObj->info;
 ?>
 
   
@@ -97,6 +99,9 @@
     // $buyProduct = new BuyProduct();
     // echo $buyProduct->getPayment();
 ?>
+
+
+<!-- PDO (Php Database Object) -->
 
 </body>
 </html>

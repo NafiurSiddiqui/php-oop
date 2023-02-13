@@ -1,9 +1,9 @@
 <?php
     // declare(strict_types = 1); //TO turn on the strict
 
-use Purchase\Purchase;
-
+    
     include './includes/autoloader.inc.php';
+    use Purchase\Purchase;
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +15,14 @@ use Purchase\Purchase;
     <title>OOP </title>
 </head>
 <body>
+
+<!-- class declaration -->
+
+<?php
+    include "./classes/Newclass.class.php";
+    echo $newObj->printSomething();
+?>
+
   
 <!-- Visibility and Inheritence -->
 <?php
@@ -83,11 +91,11 @@ use Purchase\Purchase;
 <!-- Abstract Class-->
 
 <?php
-    include_once "classes/abstract/paymenttypes.abstract.php";
-    include_once "classes/BuyProduct.class.php";
+    // include_once "classes/abstract/paymenttypes.abstract.php";
+    // include_once "classes/BuyProduct.class.php";
 
-    $buyProduct = new BuyProduct();
-    echo $buyProduct->getPayment();
+    // $buyProduct = new BuyProduct();
+    // echo $buyProduct->getPayment();
 ?>
 
 </body>

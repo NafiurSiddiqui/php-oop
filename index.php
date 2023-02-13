@@ -85,6 +85,9 @@ use Purchase\Purchase;
 <?php
     include_once "classes/abstract/paymenttypes.abstract.php";
     include_once "classes/BuyProduct.class.php";
+
+    $buyProduct = new BuyProduct();
+    echo $buyProduct->getPayment();
 ?>
 
 </body>
